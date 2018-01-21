@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-int a[100],n,i,j,max;
+int a[100],n,a,b,max;
 printf("\n enter the no. of values");
 scanf("%d",&n);
 for(i=0;i<n;i++)
@@ -10,9 +10,9 @@ for(i=0;i<n;i++)
 }
 for(i=0;i<n;i++)
 {
-for(j=0;j<n;j++)
+for(b=0;b<n;b++)
 {
-	if(a[j]>a[i])
+	if(a[b]>a[i])
 		max=a[j];
 }
 }
