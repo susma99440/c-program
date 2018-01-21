@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-int a[100],n,a,b,max;
+int a[100],n,i,b,max;
 printf("\n enter the no. of values");
 scanf("%d",&n);
 for(i=0;i<n;i++)
