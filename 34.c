@@ -3,15 +3,15 @@
 int main()
 {
 	char ch[50]="Hello world.Goodbye";
-	int i,count=0,line;
+	int i,c=0,line;
 	for(i=0;ch[i]!=0;i++)
 	{
 		if(ch[i]=='.')
-		count=++count;
+		c=++c;
 		else
-		count=count;
+		c=c;
 	}
-	line=count+1;
+	line=c+1;
 	printf("No.of lines %d",line);
 	return 0;
 }
