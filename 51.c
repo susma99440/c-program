@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-	int a[10],i;
-	scanf("%d",&a[i]);
-	printf("%d",a[i]);
+	int a;
+	scanf("%d",&a);
+	printf("%d",a);
 	return 0;
 }
