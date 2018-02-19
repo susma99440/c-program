@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-	int a,b,temp;
-	scanf("%d %d",&a,&b);
-	temp=a;
-	a=b;
-	b=temp;
-	printf("a=%d,b=%d",a,b);
+	int i,j;
+	scanf("%d %d",&i,&j);
+	i=i^j;
+	j=i^j;
+	i=i^j;
+	printf("the result is:%d %d",i,j);
 	return 0;
 }
